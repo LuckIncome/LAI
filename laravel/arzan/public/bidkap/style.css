@@ -1,0 +1,436 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+  padding: 0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+.imgfooter{
+  width: 100%;
+}
+.carousel-control-next {
+  margin-right: 100px;
+}
+.carousel-control-prev{
+  margin-left: 100px;
+}
+header{
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+  padding-top: 15vh;
+}
+.headerregis{
+  position:absolute;
+  top: -40px;
+}
+.headerIMG{
+  width: 100%;
+  margin-left: -3%;
+
+}
+.container{}
+/* Logo */
+.logo{
+  display: flex;
+  font-weight: bold;
+}
+.logoImg {
+  height: 25vh;
+}
+.logoImg img{
+  height: 100%;
+}
+.text h3,h4{
+  font-weight: 800;
+}
+.text h6{
+  font-size: 18px;
+  font-weight: 500;
+}
+/* form */
+.form{
+  width: 380px;
+  padding: 20px 0;
+}
+.sendApplication{
+  background-color: #438c23!important;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  font-weight: bold;
+  box-shadow: 4px 4px  rgba(0,0,0,.2)
+}
+.sendApplication:hover{
+  color: #fff;
+}
+/* card */
+.card{
+  border:none;
+  border-radius: 15px!important;
+  -moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .1);
+  -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .1);
+}
+.card-title h4{
+  text-align: center;
+}
+.formImgspan{
+  background-color: transparent;
+  border:none;
+  border-right: 3px solid #438c23;
+}
+.formImg{
+  height: 24px;
+}
+input[type="text"], input[type="password"], textarea, select {
+    outline: none;
+}
+.form-control{
+  border: none;
+  background-color: transparent!important;
+  height: 100%;
+  outline: none;
+}
+.checkPolicy a{
+   text-decoration: underline;
+}
+.input-group{
+  box-shadow: inset 0px 2px 2px 1px rgba(0,0,0,.3);
+  border-radius: 6px;
+  height: 45px;
+  background-color: transparent;
+  margin-bottom: 26px!important;
+}
+.goup{
+  position: relative;
+}
+#goup{
+  position: absolute;
+  top: 60px;
+  left: 0;
+  out-line: none;
+  border:none;
+  background-color: #438c23;
+  color: #fff;
+  height: 50px;
+  width: 100px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-weight: bold;
+
+}
+.cardfour {
+    background-color: #fff;
+    min-height: 226px;
+    padding: 20px;
+    margin:5px;
+    border-radius: 8px!important;
+    -moz-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .3);
+    font-size: 18px;
+    position: relative;
+
+  }
+  #becomedrive{
+    position: absolute;
+    width: 320px;
+    bottom: -20px;
+    left: -90px;
+    online: none;
+    border:none;
+    background-color: #438c23;
+    color: #fff;
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .card-body-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#titleofwhy{
+  font-weight: 800;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+#titleofwhydess{
+  font-weight: 800;
+  margin-bottom: 50px;
+  letter-spacing: 4px;
+}
+section{
+  height: 600px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+  /* background: yellow; */
+
+  /*second section */
+/*second section*/
+#description{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.description{
+position: relative;
+}
+#titleofdescrip{
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+.buttonwithunderline button{
+  width: 100%;
+  online: none;
+  border:none;
+  background-color: #438c23;
+  color: #fff;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.buttonwithunderline {
+  position: absolute;
+  width: 220px;
+  top:20px;
+  left: -50px;
+  padding-bottom: 10px;
+  /* border-bottom: 1px solid #438c23; */
+}
+.buttoncenter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.buttoncenter button{
+  width: 330px;
+  online: none;
+  border:none;
+  background-color: #438c23;
+  color: #fff;
+  height: 50px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.lineofbutton{
+  border-bottom: 1px solid #438c23;
+  width: 40%;
+  height: 20px;
+}
+.description img{
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+}
+ul li{
+  font-weight: bold;
+}
+
+/* Any question*/
+.anyquestion{
+  /* height: 80vh; */
+  width: 100%;
+}
+.anyquestionnumber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.anyquestionnumber h6{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.anyquestions h1{
+  font-weight: bold;
+  font-size: 3.8rem;
+  color: #438c23;
+  margin-top: 40px;
+}
+.anyquestions h3{
+  font-weight: bold;
+}
+.number h1{
+  font-weight: bold;
+}
+.becomeadrive h1{
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.becomeadrive{
+  /* background-image: url('img/orighiundai.png'); */
+  background-repeat:no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: 700px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0;
+
+}
+footer{
+  height: 200px;
+  background-color: #353535;
+  position: relative;
+}
+.triangle {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.triangle-2 {
+  position: absolute;
+  top:0;
+  right: 0;
+  width: 70px;
+  height: 140px;
+  border-right: solid 70px #fff;
+  border-bottom: solid 70px transparent;
+  border-top: solid 70px transparent;
+}
+.triangle-3 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 70px;
+  height: 140px;
+  border-left: solid 70px #fff;
+  border-bottom: solid 70px transparent;
+  border-top: solid 70px transparent;
+}
+.triangle-4 {
+  position: absolute;
+  bottom: 0;
+  left: calc( 50% - 250px );
+  width: 200px;
+  height: 100px;
+  border-bottom: solid 200px rgb(255,255,255);
+  border-left: solid 250px transparent;
+  border-right: solid 250px transparent;
+  /* z-index: -1000; */
+}
+.footerCenterSocImg img{
+  height: 18px;
+  margin: 0 15px;
+}
+.footerPolicy{
+  font-size: 12px;
+  margin: 7px 0;
+}
+.footerrighttext{
+  font-weight: bold;
+  text-align: right;
+  color:#fff;
+}
+.footelefttext{
+  color: #fff;
+  margin-top: 50px;
+}
+.footelefttext h6{
+  cursor: default;
+}
+.footelefttext h6:hover {
+  text-decoration: underline;
+}
+.footerlogo{
+  height: 64px;
+}
+.footersoc{
+  height: 45px;
+}
+.col-md{
+  margin: 0;
+  padding: 0;
+}
+.phones{
+  position: absolute;
+  bottom: -100px;
+}
+.socifoterimg{
+  height: 40px;
+}
+@media only screen and (max-width: 450px) {
+  .footelefttext {
+    color: #fff;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+  .footerrighttext{ text-align: center}
+  .align-items-end {
+    -ms-flex-align: end!important;
+    align-items: center!important;}
+  #becomedrive{
+    bottom:0px;
+  }
+  .buttonwithunderline{
+    top: -45px;
+    left: -10px;
+  }
+  .description {
+    margin-bottom: 33px;  }
+  .anyquestionnumber{
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .anyquestionnumber h6{
+    text-align: center;
+    margin-top: 15px;
+  }
+  .anyquestions h3{
+    font-size: 1.3rem;
+  }
+  .anyquestions h1{font-size: 2.5rem;}
+  #titleofwhy{ margin-left: 0; }
+  #titleofwhydess { letter-spacing: 0;}
+  .buttonwithunderline {
+    top: none;
+    bottom: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+    margin-right: 10px;
+  }
+  .carousel-control-prev{
+    margin-left: 10px;
+    left: 0;
+  }
+  section {
+  height: auto;
+  }
+  .headerIMG{ display: none;}
+  .logo{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form{
+    width: 100%;
+  }
+  header{
+    margin-top: 0;
+    height: 800px;
+  }
+  .headerregis{
+    top: 0;
+  }
+  .triangle{
+    display: none;
+  }
+  .phonesform{
+    margin-bottom: 25px;
+  }
+  .phones{
+    display: none!important;
+  }
+  footer{
+    height: auto;
+    color: #fff!important;
+  }
+}

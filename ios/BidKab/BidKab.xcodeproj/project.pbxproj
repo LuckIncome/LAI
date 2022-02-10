@@ -1,0 +1,1319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1412503D22EEBAB10009FC23 /* PlaceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1412503C22EEBAB10009FC23 /* PlaceListTableViewCell.swift */; };
+		141DCFB82303D2D1000940CB /* TextTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DCFB72303D2D1000940CB /* TextTitleView.swift */; };
+		1430C67D23191F67008128B5 /* SliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1430C67C23191F67008128B5 /* SliderCollectionViewCell.swift */; };
+		144BC8E82306C5C700657C59 /* CostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144BC8E72306C5C700657C59 /* CostView.swift */; };
+		14538D04230D60CA00EE581C /* OrderAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14538D03230D60CA00EE581C /* OrderAlertView.swift */; };
+		14538D08230D6AEB00EE581C /* BannersLayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14538D07230D6AEB00EE581C /* BannersLayoutConfiguration.swift */; };
+		14B9153F23178F0000436159 /* UserHistoryAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B9153E23178F0000436159 /* UserHistoryAddress.swift */; };
+		14E360FF23180E19004B1EE6 /* SliderMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E360FE23180E19004B1EE6 /* SliderMenuViewController.swift */; };
+		247454D2F1B3B01B06D7251E /* Pods_BidKab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC926948CB068DB82CD81D62 /* Pods_BidKab.framework */; };
+		5C0121B42232D1230016B4D0 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0121B32232D1230016B4D0 /* PlaceListViewController.swift */; };
+		5C0121B62232D4BC0016B4D0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0121B52232D4BC0016B4D0 /* MapViewController.swift */; };
+		5C04723721E4AEC100699D1D /* ConfidentialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C04723621E4AEC100699D1D /* ConfidentialViewController.swift */; };
+		5C170D9E2269B0C9006426C5 /* launch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5C170D9D2269B0C9006426C5 /* launch.jpg */; };
+		5C39658521CBC15400AA75F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C39658421CBC15400AA75F9 /* GoogleService-Info.plist */; };
+		5CE2D2CE222563E700528285 /* PassengerInMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE2D2CD222563E700528285 /* PassengerInMapViewController.swift */; };
+		5CEE465F21BBB092002C8E14 /* OrderTradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE465E21BBB092002C8E14 /* OrderTradeViewController.swift */; };
+		5CEE466121BBB371002C8E14 /* OrderTradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEE466021BBB371002C8E14 /* OrderTradeTableViewCell.swift */; };
+		6002C0B7212540500085364C /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002C0B6212540500085364C /* UIAlertController.swift */; };
+		6002C0B9212545EB0085364C /* ScrollableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002C0B8212545EB0085364C /* ScrollableController.swift */; };
+		6002C0BB2125460C0085364C /* InstructionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6002C0BA2125460C0085364C /* InstructionsController.swift */; };
+		60167AEC21631E3300486DD7 /* NewHelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60167AEB21631E3300486DD7 /* NewHelpCell.swift */; };
+		60246B262142D2CC006DEF6A /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B252142D2CC006DEF6A /* PaymentType.swift */; };
+		60246B282142E1A4006DEF6A /* CardPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B272142E1A4006DEF6A /* CardPayment.swift */; };
+		60246B2A2142E1DE006DEF6A /* SMSPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B292142E1DE006DEF6A /* SMSPayment.swift */; };
+		60246B2C2142E200006DEF6A /* BalancePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B2B2142E200006DEF6A /* BalancePayment.swift */; };
+		60246B2E2142E225006DEF6A /* UserBalancePayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B2D2142E225006DEF6A /* UserBalancePayment.swift */; };
+		60246B302142E246006DEF6A /* Kassa24Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B2F2142E246006DEF6A /* Kassa24Payment.swift */; };
+		60246B322142E25D006DEF6A /* QiwiPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60246B312142E25D006DEF6A /* QiwiPayment.swift */; };
+		603068FE212FD94700A9C3B2 /* RefreshControlCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603068FD212FD94700A9C3B2 /* RefreshControlCell.swift */; };
+		60306900212FF9FA00A9C3B2 /* RefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603068FF212FF9FA00A9C3B2 /* RefreshController.swift */; };
+		60579B0E216280D800776DB2 /* arzantaxi-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 60579B0D216280D700776DB2 /* arzantaxi-help.html */; };
+		60579B102162831D00776DB2 /* HelpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60579B0F2162831D00776DB2 /* HelpController.swift */; };
+		605E3B052123EFD500047AA9 /* ContactUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605E3B042123EFD500047AA9 /* ContactUsController.swift */; };
+		60783759216630E700046EA4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60783758216630E700046EA4 /* String.swift */; };
+		608E5E5C21228F3500C28EE9 /* DriverStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E5E5B21228F3500C28EE9 /* DriverStatus.swift */; };
+		608E5E5E2122963600C28EE9 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E5E5D2122963600C28EE9 /* Date.swift */; };
+		608E5E602122C82500C28EE9 /* DriverSubscriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608E5E5F2122C82500C28EE9 /* DriverSubscriptionResponse.swift */; };
+		6090B1E72136B2CC00024D98 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6090B1E62136B2CC00024D98 /* Double.swift */; };
+		60CB823A2121A2DF00FF8918 /* DriverCityTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB82392121A2DF00FF8918 /* DriverCityTitleView.swift */; };
+		65EB808D2041805E001E9AEF /* AddSpecialCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB808C2041805E001E9AEF /* AddSpecialCarViewController.swift */; };
+		65EB808F20418225001E9AEF /* DriverSpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB808E20418225001E9AEF /* DriverSpecialViewController.swift */; };
+		65EB8091204191ED001E9AEF /* SpecialViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB8090204191ED001E9AEF /* SpecialViewCell.swift */; };
+		65EB80932041A09E001E9AEF /* DriverToiCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB80922041A09E001E9AEF /* DriverToiCarViewController.swift */; };
+		65EB80952041A218001E9AEF /* AddToiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB80942041A218001E9AEF /* AddToiViewController.swift */; };
+		8911F17F20F71422007542AF /* SpecialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F17E20F71422007542AF /* SpecialViewController.swift */; };
+		8911F18120F719B9007542AF /* ToyFreeAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F18020F719B9007542AF /* ToyFreeAutoCell.swift */; };
+		8911F18320F719D9007542AF /* ToyMyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F18220F719D9007542AF /* ToyMyOrderCell.swift */; };
+		8911F18520F71A21007542AF /* SpecialFreeAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F18420F71A21007542AF /* SpecialFreeAutoCell.swift */; };
+		8911F18720F71A3E007542AF /* SpecialMyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911F18620F71A3E007542AF /* SpecialMyOrderCell.swift */; };
+		893F23E220F9B80400DEB8C3 /* OrderSpecialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23E120F9B80400DEB8C3 /* OrderSpecialCell.swift */; };
+		893F23E420F9B99200DEB8C3 /* OrderToyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23E320F9B99200DEB8C3 /* OrderToyCell.swift */; };
+		893F23E620F9C67800DEB8C3 /* DriverToyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23E520F9C67800DEB8C3 /* DriverToyCell.swift */; };
+		893F23E820F9C7F100DEB8C3 /* MyOrderToyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23E720F9C7F100DEB8C3 /* MyOrderToyCell.swift */; };
+		893F23EA20F9E5E000DEB8C3 /* DriverOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23E920F9E5E000DEB8C3 /* DriverOrdersCell.swift */; };
+		893F23EC20F9E89100DEB8C3 /* DriverMyOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23EB20F9E89100DEB8C3 /* DriverMyOrdersCell.swift */; };
+		893F23EE20F9EB3000DEB8C3 /* DriverAutoInterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23ED20F9EB3000DEB8C3 /* DriverAutoInterCell.swift */; };
+		893F23F020F9FB9C00DEB8C3 /* DriverCargoOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23EF20F9FB9C00DEB8C3 /* DriverCargoOrdersCell.swift */; };
+		893F23F220F9FCDE00DEB8C3 /* DriverCargoMyAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23F120F9FCDE00DEB8C3 /* DriverCargoMyAutoCell.swift */; };
+		893F23F420FA084000DEB8C3 /* DriverCargoCreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23F320FA084000DEB8C3 /* DriverCargoCreateCell.swift */; };
+		893F23F620FA0D0500DEB8C3 /* DriverMotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23F520FA0D0500DEB8C3 /* DriverMotoViewController.swift */; };
+		893F23FA20FA0EEB00DEB8C3 /* DriverMotoMyAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23F920FA0EEB00DEB8C3 /* DriverMotoMyAutoCell.swift */; };
+		893F23FC20FA0F1400DEB8C3 /* DriverMotoOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23FB20FA0F1400DEB8C3 /* DriverMotoOrdersCell.swift */; };
+		893F23FE20FA0F3400DEB8C3 /* DriverMotoCreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893F23FD20FA0F3400DEB8C3 /* DriverMotoCreateCell.swift */; };
+		89601A4920F5BF7900DBAEFC /* CargoOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A4820F5BF7900DBAEFC /* CargoOrderCell.swift */; };
+		89601A4B20F5C94000DBAEFC /* ImageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A4A20F5C94000DBAEFC /* ImageCollectionCell.swift */; };
+		89601A4D20F5D05200DBAEFC /* MotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A4C20F5D05200DBAEFC /* MotoViewController.swift */; };
+		89601A4F20F5D7FD00DBAEFC /* MotoMyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A4E20F5D7FD00DBAEFC /* MotoMyOrderCell.swift */; };
+		89601A5120F5D95400DBAEFC /* MotoFreeAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A5020F5D95400DBAEFC /* MotoFreeAutoCell.swift */; };
+		89601A5320F6006500DBAEFC /* OrderMotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A5220F6006400DBAEFC /* OrderMotoCell.swift */; };
+		89601A5520F610C800DBAEFC /* SelectedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89601A5420F610C800DBAEFC /* SelectedImage.swift */; };
+		896732C721130FA700D7F471 /* DriverVipMyOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896732C621130FA700D7F471 /* DriverVipMyOrdersCell.swift */; };
+		896930D520F776AE00EA61AC /* ToyTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896930D420F776AE00EA61AC /* ToyTaxiViewController.swift */; };
+		89698DF42119C669002831BF /* TypsPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89698DF32119C669002831BF /* TypsPaymentViewController.swift */; };
+		89A04F9521202E720044BE41 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F8B21202E700044BE41 /* DPDConstants.swift */; };
+		89A04F9621202E720044BE41 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F8C21202E700044BE41 /* DPDKeyboardListener.swift */; };
+		89A04F9721202E720044BE41 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F8D21202E700044BE41 /* DPDUIView+Extension.swift */; };
+		89A04F9921202E720044BE41 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A04F9021202E700044BE41 /* DropDownCell.xib */; };
+		89A04F9A21202E720044BE41 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F9221202E700044BE41 /* DropDown+Appearance.swift */; };
+		89A04F9B21202E720044BE41 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F9321202E700044BE41 /* DropDown.swift */; };
+		89A04F9C21202E720044BE41 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A04F9421202E700044BE41 /* DropDownCell.swift */; };
+		89B155A2211212CE00441F8B /* FreeAutoWithImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B155A1211212CE00441F8B /* FreeAutoWithImageCell.swift */; };
+		89B155A421122A6400441F8B /* MyOrdersWithStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B155A321122A6400441F8B /* MyOrdersWithStatusCell.swift */; };
+		89B155A62112338100441F8B /* DriverFreeAutoWithImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B155A52112338100441F8B /* DriverFreeAutoWithImageCell.swift */; };
+		89B81F5B20F4C45000DAED26 /* FreeAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B81F5A20F4C45000DAED26 /* FreeAutoCell.swift */; };
+		89B81F5D20F4D07900DAED26 /* IntercityMyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B81F5C20F4D07900DAED26 /* IntercityMyOrderCell.swift */; };
+		89B81F5F20F4E24800DAED26 /* IntercityFreeAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B81F5E20F4E24800DAED26 /* IntercityFreeAutoCell.swift */; };
+		89CEFD4220FA84C40017E237 /* DriverToyTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4120FA84C40017E237 /* DriverToyTaxiViewController.swift */; };
+		89CEFD4420FA8CEE0017E237 /* DriverToyOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4320FA8CEE0017E237 /* DriverToyOrdersCell.swift */; };
+		89CEFD4620FA8D070017E237 /* DriverToyCreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4520FA8D070017E237 /* DriverToyCreateCell.swift */; };
+		89CEFD4820FA8D1E0017E237 /* DriverToyMyAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4720FA8D1E0017E237 /* DriverToyMyAutoCell.swift */; };
+		89CEFD4A20FA97AE0017E237 /* DriverSpecialOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4920FA97AE0017E237 /* DriverSpecialOrdersCell.swift */; };
+		89CEFD4C20FA97CE0017E237 /* DriverSpecialCreateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4B20FA97CE0017E237 /* DriverSpecialCreateCell.swift */; };
+		89CEFD4E20FA97F30017E237 /* DriverSpecialMyAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4D20FA97F30017E237 /* DriverSpecialMyAutoCell.swift */; };
+		89CEFD5020FA9C140017E237 /* MyAutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD4F20FA9C140017E237 /* MyAutoCell.swift */; };
+		89CEFD5220FAA1CD0017E237 /* DriverOrdersTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFD5120FAA1CD0017E237 /* DriverOrdersTableCell.swift */; };
+		89F054AF210B90E400BE169D /* PayBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F054AE210B90E400BE169D /* PayBoxViewController.swift */; };
+		CA03383D1FC891D200868212 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA03383C1FC891D200868212 /* CarModel.swift */; };
+		CA0F21D21FC00AE5005B4187 /* DriverHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21D11FC00AE5005B4187 /* DriverHomeController.swift */; };
+		CA0F21D51FC01A6C005B4187 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21D41FC01A6C005B4187 /* HomeCell.swift */; };
+		CA0F21D91FC0297A005B4187 /* DriverHistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21D81FC0297A005B4187 /* DriverHistoryController.swift */; };
+		CA0F21DB1FC02C97005B4187 /* DriverIntercityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21DA1FC02C97005B4187 /* DriverIntercityController.swift */; };
+		CA0F21DD1FC02D19005B4187 /* DriverIntercityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21DC1FC02D19005B4187 /* DriverIntercityCell.swift */; };
+		CA0F21DF1FC03EFD005B4187 /* DriverOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F21DE1FC03EFD005B4187 /* DriverOrderViewController.swift */; };
+		CA0F47671FE91C5C00710131 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0F47661FE91C5C00710131 /* Socket.swift */; };
+		CA1825F01FF630EB000FA976 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1825EF1FF630EB000FA976 /* Notification.swift */; };
+		CA1825F41FF63B2E000FA976 /* VipTaxi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1825F31FF63B2E000FA976 /* VipTaxi.swift */; };
+		CA18F45A1FF1144600243747 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA18F4591FF1144600243747 /* OrderViewController.swift */; };
+		CA229D621FB2E48000C424A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA229D611FB2E48000C424A8 /* AppDelegate.swift */; };
+		CA229D6C1FB2E48000C424A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA229D6B1FB2E48000C424A8 /* Assets.xcassets */; };
+		CA229D6F1FB2E48000C424A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA229D6D1FB2E48000C424A8 /* LaunchScreen.storyboard */; };
+		CA24AE4D1FC8045000C0B33D /* CarMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA24AE4C1FC8045000C0B33D /* CarMark.swift */; };
+		CA28EFF11FB2F62D00C2F818 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA28EFF01FB2F62D00C2F818 /* Extentions.swift */; };
+		CA2D05CB2037189D00FD363B /* AddCargoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D05CA2037189D00FD363B /* AddCargoViewController.swift */; };
+		CA2D70FB1FB9D90B00A6A7F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D70FA1FB9D90B00A6A7F2 /* HomeViewController.swift */; };
+		CA2D70FF1FB9FA9300A6A7F2 /* FriendLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D70FE1FB9FA9300A6A7F2 /* FriendLocationViewController.swift */; };
+		CA2D71011FB9FB2100A6A7F2 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D71001FB9FB2100A6A7F2 /* FriendCell.swift */; };
+		CA2D71031FBA081300A6A7F2 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D71021FBA081300A6A7F2 /* AddFriendViewController.swift */; };
+		CA2D71051FBA0FEB00A6A7F2 /* VipTaxiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D71041FBA0FEB00A6A7F2 /* VipTaxiViewController.swift */; };
+		CA2D71071FBA10C300A6A7F2 /* VipTaxiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D71061FBA10C300A6A7F2 /* VipTaxiCell.swift */; };
+		CA31C4A51FE7D33100AE9643 /* Intercity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA31C4A41FE7D33100AE9643 /* Intercity.swift */; };
+		CA372F861FBC3DFD0090162D /* DetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA372F851FBC3DFD0090162D /* DetailsViewCell.swift */; };
+		CA3B46ED1FD0243B002E577D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3B46EC1FD0243B002E577D /* LoginViewController.swift */; };
+		CA48DB461FB45AFF00CDF794 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA48DB451FB45AFF00CDF794 /* MenuCell.swift */; };
+		CA4F4A711FC2EFB300D79595 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F4A701FC2EFB300D79595 /* User.swift */; };
+		CA4F4A731FC2F1A000D79595 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F4A721FC2F1A000D79595 /* City.swift */; };
+		CA4F4A751FC2F5B700D79595 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4F4A741FC2F5B700D79595 /* Constant.swift */; };
+		CA5707161FDFF86C00AA1DBD /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5707151FDFF86C00AA1DBD /* Car.swift */; };
+		CA7651031FC3C87D005CA3D7 /* DriverProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7651021FC3C87D005CA3D7 /* DriverProfileController.swift */; };
+		CA7651051FC3C94C005CA3D7 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7651041FC3C94C005CA3D7 /* ProfileCell.swift */; };
+		CA76C93B1FBAC1FC0038DFE6 /* OrderBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76C93A1FBAC1FC0038DFE6 /* OrderBar.swift */; };
+		CA76C93D1FBAD8430038DFE6 /* OrderBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76C93C1FBAD8430038DFE6 /* OrderBarCell.swift */; };
+		CA76C93F1FBAE2F80038DFE6 /* OrderCargoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76C93E1FBAE2F80038DFE6 /* OrderCargoCell.swift */; };
+		CA76C9411FBAE4EF0038DFE6 /* MyOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76C9401FBAE4EF0038DFE6 /* MyOrderCell.swift */; };
+		CA7EC0E71FD7D2D40036F7E5 /* SpecialEquipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EC0E61FD7D2D40036F7E5 /* SpecialEquipment.swift */; };
+		CA8282BD1FBA2B00005DBBE5 /* PromocodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282BC1FBA2B00005DBBE5 /* PromocodeViewController.swift */; };
+		CA8282BF1FBA3562005DBBE5 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282BE1FBA3562005DBBE5 /* TutorialViewController.swift */; };
+		CA8282C11FBA35D0005DBBE5 /* TutorialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282C01FBA35D0005DBBE5 /* TutorialCell.swift */; };
+		CA8282C31FBA59A0005DBBE5 /* SpecialEquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282C21FBA59A0005DBBE5 /* SpecialEquipmentViewController.swift */; };
+		CA8282C51FBA5A34005DBBE5 /* SpecialEquipmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282C41FBA5A34005DBBE5 /* SpecialEquipmentCell.swift */; };
+		CA8282C71FBA60EA005DBBE5 /* CargoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8282C61FBA60EA005DBBE5 /* CargoViewController.swift */; };
+		CA8D0CAD1FB9A07200269E2B /* LeftMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8D0CAC1FB9A07200269E2B /* LeftMenuController.swift */; };
+		CAA60D261FB796A400ABB4D5 /* ConfirmAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA60D251FB796A400ABB4D5 /* ConfirmAuthViewController.swift */; };
+		CAABFC261FE81B5C0002F9EE /* DriverCargoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABFC251FE81B5C0002F9EE /* DriverCargoViewController.swift */; };
+		CAABFC281FE81BA00002F9EE /* Cargo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABFC271FE81BA00002F9EE /* Cargo.swift */; };
+		CAABFC2A1FE81D320002F9EE /* DriverCargoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABFC291FE81D320002F9EE /* DriverCargoListCell.swift */; };
+		CAABFC2C1FE81D9A0002F9EE /* DriverCargoAcceptedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABFC2B1FE81D9A0002F9EE /* DriverCargoAcceptedListCell.swift */; };
+		CAABFC2E1FE81E070002F9EE /* DriverCargoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABFC2D1FE81E070002F9EE /* DriverCargoCell.swift */; };
+		CAB15F7D1FB3131E000F2170 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB15F7C1FB3131E000F2170 /* Helper.swift */; };
+		CAB2544A1FBC5EB8009AB955 /* OrderSuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB254491FBC5EB8009AB955 /* OrderSuggestionCell.swift */; };
+		CAB6489A1FB976940017CCA2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB648991FB976940017CCA2 /* ProfileViewController.swift */; };
+		CAD1AD711FE7E9F8002A2019 /* DriverIntercityListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1AD701FE7E9F8002A2019 /* DriverIntercityListCell.swift */; };
+		CAD1AD731FE7EB2F002A2019 /* DriverIntercityAcceptedListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1AD721FE7EB2F002A2019 /* DriverIntercityAcceptedListCell.swift */; };
+		CAD611271FBC06D200A02A99 /* IntercityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD611261FBC06D200A02A99 /* IntercityViewController.swift */; };
+		CAD611291FBC076F00A02A99 /* OrderIntercityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD611281FBC076F00A02A99 /* OrderIntercityCell.swift */; };
+		CAD6112D1FBC11D900A02A99 /* OrderDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6112C1FBC11D900A02A99 /* OrderDetailsView.swift */; };
+		CAD94AC12005D9C500A2BEF7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD94AC02005D9C500A2BEF7 /* SWRevealViewController.m */; };
+		CAE411251FD9670B00C88177 /* CarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE411241FD9670B00C88177 /* CarColor.swift */; };
+		CAE570E91FBD996700216105 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570E81FBD996700216105 /* HistoryViewController.swift */; };
+		CAE570EB1FBD9C9F00216105 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570EA1FBD9C9F00216105 /* NotificationsViewController.swift */; };
+		CAE570ED1FBD9DB800216105 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570EC1FBD9DB800216105 /* NotificationCell.swift */; };
+		CAE570EF1FBDA5F400216105 /* NotificationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570EE1FBDA5F400216105 /* NotificationDetailsViewController.swift */; };
+		CAE570F11FBDA7B300216105 /* NotificationDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570F01FBDA7B300216105 /* NotificationDetailCell.swift */; };
+		CAE570F31FBDB2A700216105 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570F21FBDB2A700216105 /* HelpViewController.swift */; };
+		CAE570F51FBDB34400216105 /* HelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570F41FBDB34400216105 /* HelpCell.swift */; };
+		CAE570F71FBDB66300216105 /* LocationOfFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE570F61FBDB66300216105 /* LocationOfFriendViewController.swift */; };
+		CAEDF0791FB71B07004140B6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEDF0781FB71B07004140B6 /* RegisterViewController.swift */; };
+		CAF3054320134503005894DA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3054220134503005894DA /* History.swift */; };
+		CAFA73651FBB3B46001B1EEB /* OrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFA73641FBB3B46001B1EEB /* OrderCell.swift */; };
+		CAFD766C1FEBC21500D0248C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFD766B1FEBC21500D0248C /* Order.swift */; };
+		DC6F3E9826CD0CDE00CF335E /* RequestForPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F3E9726CD0CDE00CF335E /* RequestForPayViewController.swift */; };
+		E491FFB72047061000AEC361 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491FFB62047061000AEC361 /* Offer.swift */; };
+		E491FFB920475F9B00AEC361 /* CargoCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E491FFB820475F9B00AEC361 /* CargoCar.swift */; };
+		E4F15BD3204999A3009972E7 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F15BD2204999A3009972E7 /* FeedbackViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1412503C22EEBAB10009FC23 /* PlaceListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListTableViewCell.swift; sourceTree = "<group>"; };
+		141DCFB72303D2D1000940CB /* TextTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTitleView.swift; sourceTree = "<group>"; };
+		1430C67C23191F67008128B5 /* SliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		144BC8E72306C5C700657C59 /* CostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostView.swift; sourceTree = "<group>"; };
+		14538D03230D60CA00EE581C /* OrderAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderAlertView.swift; sourceTree = "<group>"; };
+		14538D07230D6AEB00EE581C /* BannersLayoutConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersLayoutConfiguration.swift; sourceTree = "<group>"; };
+		14B9153E23178F0000436159 /* UserHistoryAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHistoryAddress.swift; sourceTree = "<group>"; };
+		14E360FE23180E19004B1EE6 /* SliderMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderMenuViewController.swift; sourceTree = "<group>"; };
+		1A9C205FEB71AF478491B77B /* Pods-BidKab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidKab.debug.xcconfig"; path = "Target Support Files/Pods-BidKab/Pods-BidKab.debug.xcconfig"; sourceTree = "<group>"; };
+		2CBD21FB59D6BD74FEF40E3BDA16CE18 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		5C0121B32232D1230016B4D0 /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
+		5C0121B52232D4BC0016B4D0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5C04723521E49E0F00699D1D /* BidKab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BidKab.entitlements; sourceTree = "<group>"; };
+		5C04723621E4AEC100699D1D /* ConfidentialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfidentialViewController.swift; sourceTree = "<group>"; };
+		5C170D9D2269B0C9006426C5 /* launch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launch.jpg; sourceTree = "<group>"; };
+		5C39658421CBC15400AA75F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5CE2D2CD222563E700528285 /* PassengerInMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerInMapViewController.swift; sourceTree = "<group>"; };
+		5CEE465E21BBB092002C8E14 /* OrderTradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTradeViewController.swift; sourceTree = "<group>"; };
+		5CEE466021BBB371002C8E14 /* OrderTradeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTradeTableViewCell.swift; sourceTree = "<group>"; };
+		6002C0B6212540500085364C /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		6002C0B8212545EB0085364C /* ScrollableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableController.swift; sourceTree = "<group>"; };
+		6002C0BA2125460C0085364C /* InstructionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsController.swift; sourceTree = "<group>"; };
+		60167AEB21631E3300486DD7 /* NewHelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHelpCell.swift; sourceTree = "<group>"; };
+		60246B252142D2CC006DEF6A /* PaymentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		60246B272142E1A4006DEF6A /* CardPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayment.swift; sourceTree = "<group>"; };
+		60246B292142E1DE006DEF6A /* SMSPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSPayment.swift; sourceTree = "<group>"; };
+		60246B2B2142E200006DEF6A /* BalancePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancePayment.swift; sourceTree = "<group>"; };
+		60246B2D2142E225006DEF6A /* UserBalancePayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBalancePayment.swift; sourceTree = "<group>"; };
+		60246B2F2142E246006DEF6A /* Kassa24Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kassa24Payment.swift; sourceTree = "<group>"; };
+		60246B312142E25D006DEF6A /* QiwiPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiwiPayment.swift; sourceTree = "<group>"; };
+		603068FD212FD94700A9C3B2 /* RefreshControlCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControlCell.swift; sourceTree = "<group>"; };
+		603068FF212FF9FA00A9C3B2 /* RefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshController.swift; sourceTree = "<group>"; };
+		60579B0D216280D700776DB2 /* arzantaxi-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "arzantaxi-help.html"; sourceTree = "<group>"; };
+		60579B0F2162831D00776DB2 /* HelpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpController.swift; sourceTree = "<group>"; };
+		605E3B042123EFD500047AA9 /* ContactUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsController.swift; sourceTree = "<group>"; };
+		60783758216630E700046EA4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		608E5E5B21228F3500C28EE9 /* DriverStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverStatus.swift; sourceTree = "<group>"; };
+		608E5E5D2122963600C28EE9 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		608E5E5F2122C82500C28EE9 /* DriverSubscriptionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverSubscriptionResponse.swift; sourceTree = "<group>"; };
+		6090B1E62136B2CC00024D98 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		60CB82392121A2DF00FF8918 /* DriverCityTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCityTitleView.swift; sourceTree = "<group>"; };
+		65EB808C2041805E001E9AEF /* AddSpecialCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpecialCarViewController.swift; sourceTree = "<group>"; };
+		65EB808E20418225001E9AEF /* DriverSpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverSpecialViewController.swift; sourceTree = "<group>"; };
+		65EB8090204191ED001E9AEF /* SpecialViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialViewCell.swift; sourceTree = "<group>"; };
+		65EB80922041A09E001E9AEF /* DriverToiCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToiCarViewController.swift; sourceTree = "<group>"; };
+		65EB80942041A218001E9AEF /* AddToiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToiViewController.swift; sourceTree = "<group>"; };
+		77F7A481651DD140002D5DF7 /* Pods-BidKab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BidKab.release.xcconfig"; path = "Target Support Files/Pods-BidKab/Pods-BidKab.release.xcconfig"; sourceTree = "<group>"; };
+		8911F17E20F71422007542AF /* SpecialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialViewController.swift; sourceTree = "<group>"; };
+		8911F18020F719B9007542AF /* ToyFreeAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyFreeAutoCell.swift; sourceTree = "<group>"; };
+		8911F18220F719D9007542AF /* ToyMyOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyMyOrderCell.swift; sourceTree = "<group>"; };
+		8911F18420F71A21007542AF /* SpecialFreeAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialFreeAutoCell.swift; sourceTree = "<group>"; };
+		8911F18620F71A3E007542AF /* SpecialMyOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialMyOrderCell.swift; sourceTree = "<group>"; };
+		893F23E120F9B80400DEB8C3 /* OrderSpecialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSpecialCell.swift; sourceTree = "<group>"; };
+		893F23E320F9B99200DEB8C3 /* OrderToyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderToyCell.swift; sourceTree = "<group>"; };
+		893F23E520F9C67800DEB8C3 /* DriverToyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToyCell.swift; sourceTree = "<group>"; };
+		893F23E720F9C7F100DEB8C3 /* MyOrderToyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderToyCell.swift; sourceTree = "<group>"; };
+		893F23E920F9E5E000DEB8C3 /* DriverOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrdersCell.swift; sourceTree = "<group>"; };
+		893F23EB20F9E89100DEB8C3 /* DriverMyOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMyOrdersCell.swift; sourceTree = "<group>"; };
+		893F23ED20F9EB3000DEB8C3 /* DriverAutoInterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAutoInterCell.swift; sourceTree = "<group>"; };
+		893F23EF20F9FB9C00DEB8C3 /* DriverCargoOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoOrdersCell.swift; sourceTree = "<group>"; };
+		893F23F120F9FCDE00DEB8C3 /* DriverCargoMyAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoMyAutoCell.swift; sourceTree = "<group>"; };
+		893F23F320FA084000DEB8C3 /* DriverCargoCreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoCreateCell.swift; sourceTree = "<group>"; };
+		893F23F520FA0D0500DEB8C3 /* DriverMotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMotoViewController.swift; sourceTree = "<group>"; };
+		893F23F920FA0EEB00DEB8C3 /* DriverMotoMyAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMotoMyAutoCell.swift; sourceTree = "<group>"; };
+		893F23FB20FA0F1400DEB8C3 /* DriverMotoOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMotoOrdersCell.swift; sourceTree = "<group>"; };
+		893F23FD20FA0F3400DEB8C3 /* DriverMotoCreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMotoCreateCell.swift; sourceTree = "<group>"; };
+		89601A4820F5BF7900DBAEFC /* CargoOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoOrderCell.swift; sourceTree = "<group>"; };
+		89601A4A20F5C94000DBAEFC /* ImageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionCell.swift; sourceTree = "<group>"; };
+		89601A4C20F5D05200DBAEFC /* MotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoViewController.swift; sourceTree = "<group>"; };
+		89601A4E20F5D7FD00DBAEFC /* MotoMyOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoMyOrderCell.swift; sourceTree = "<group>"; };
+		89601A5020F5D95400DBAEFC /* MotoFreeAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoFreeAutoCell.swift; sourceTree = "<group>"; };
+		89601A5220F6006400DBAEFC /* OrderMotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderMotoCell.swift; sourceTree = "<group>"; };
+		89601A5420F610C800DBAEFC /* SelectedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImage.swift; sourceTree = "<group>"; };
+		896732C621130FA700D7F471 /* DriverVipMyOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverVipMyOrdersCell.swift; sourceTree = "<group>"; };
+		896930D420F776AE00EA61AC /* ToyTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyTaxiViewController.swift; sourceTree = "<group>"; };
+		89698DF32119C669002831BF /* TypsPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypsPaymentViewController.swift; sourceTree = "<group>"; };
+		89A04F8921202E700044BE41 /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDown.h; sourceTree = "<group>"; };
+		89A04F8B21202E700044BE41 /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDConstants.swift; sourceTree = "<group>"; };
+		89A04F8C21202E700044BE41 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		89A04F8D21202E700044BE41 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		89A04F8E21202E700044BE41 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A04F9021202E700044BE41 /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		89A04F9221202E700044BE41 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		89A04F9321202E700044BE41 /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		89A04F9421202E700044BE41 /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		89B155A1211212CE00441F8B /* FreeAutoWithImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeAutoWithImageCell.swift; sourceTree = "<group>"; };
+		89B155A321122A6400441F8B /* MyOrdersWithStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersWithStatusCell.swift; sourceTree = "<group>"; };
+		89B155A52112338100441F8B /* DriverFreeAutoWithImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverFreeAutoWithImageCell.swift; sourceTree = "<group>"; };
+		89B81F5A20F4C45000DAED26 /* FreeAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeAutoCell.swift; sourceTree = "<group>"; };
+		89B81F5C20F4D07900DAED26 /* IntercityMyOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercityMyOrderCell.swift; sourceTree = "<group>"; };
+		89B81F5E20F4E24800DAED26 /* IntercityFreeAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercityFreeAutoCell.swift; sourceTree = "<group>"; };
+		89CEFD4120FA84C40017E237 /* DriverToyTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToyTaxiViewController.swift; sourceTree = "<group>"; };
+		89CEFD4320FA8CEE0017E237 /* DriverToyOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToyOrdersCell.swift; sourceTree = "<group>"; };
+		89CEFD4520FA8D070017E237 /* DriverToyCreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToyCreateCell.swift; sourceTree = "<group>"; };
+		89CEFD4720FA8D1E0017E237 /* DriverToyMyAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverToyMyAutoCell.swift; sourceTree = "<group>"; };
+		89CEFD4920FA97AE0017E237 /* DriverSpecialOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverSpecialOrdersCell.swift; sourceTree = "<group>"; };
+		89CEFD4B20FA97CE0017E237 /* DriverSpecialCreateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverSpecialCreateCell.swift; sourceTree = "<group>"; };
+		89CEFD4D20FA97F30017E237 /* DriverSpecialMyAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverSpecialMyAutoCell.swift; sourceTree = "<group>"; };
+		89CEFD4F20FA9C140017E237 /* MyAutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAutoCell.swift; sourceTree = "<group>"; };
+		89CEFD5120FAA1CD0017E237 /* DriverOrdersTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrdersTableCell.swift; sourceTree = "<group>"; };
+		89F054AE210B90E400BE169D /* PayBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayBoxViewController.swift; sourceTree = "<group>"; };
+		CA03383C1FC891D200868212 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		CA0F21D11FC00AE5005B4187 /* DriverHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHomeController.swift; sourceTree = "<group>"; };
+		CA0F21D41FC01A6C005B4187 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		CA0F21D81FC0297A005B4187 /* DriverHistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverHistoryController.swift; sourceTree = "<group>"; };
+		CA0F21DA1FC02C97005B4187 /* DriverIntercityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverIntercityController.swift; sourceTree = "<group>"; };
+		CA0F21DC1FC02D19005B4187 /* DriverIntercityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverIntercityCell.swift; sourceTree = "<group>"; };
+		CA0F21DE1FC03EFD005B4187 /* DriverOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverOrderViewController.swift; sourceTree = "<group>"; };
+		CA0F47661FE91C5C00710131 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		CA1825EF1FF630EB000FA976 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		CA1825F31FF63B2E000FA976 /* VipTaxi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipTaxi.swift; sourceTree = "<group>"; };
+		CA18F4591FF1144600243747 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		CA229D5E1FB2E48000C424A8 /* BidKab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BidKab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA229D611FB2E48000C424A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA229D6B1FB2E48000C424A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA229D6E1FB2E48000C424A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA229D701FB2E48000C424A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA24AE4C1FC8045000C0B33D /* CarMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMark.swift; sourceTree = "<group>"; };
+		CA28EFF01FB2F62D00C2F818 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		CA2D05CA2037189D00FD363B /* AddCargoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCargoViewController.swift; sourceTree = "<group>"; };
+		CA2D70FA1FB9D90B00A6A7F2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CA2D70FE1FB9FA9300A6A7F2 /* FriendLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendLocationViewController.swift; sourceTree = "<group>"; };
+		CA2D71001FB9FB2100A6A7F2 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		CA2D71021FBA081300A6A7F2 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		CA2D71041FBA0FEB00A6A7F2 /* VipTaxiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipTaxiViewController.swift; sourceTree = "<group>"; };
+		CA2D71061FBA10C300A6A7F2 /* VipTaxiCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipTaxiCell.swift; sourceTree = "<group>"; };
+		CA31C4A41FE7D33100AE9643 /* Intercity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intercity.swift; sourceTree = "<group>"; };
+		CA372F851FBC3DFD0090162D /* DetailsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewCell.swift; sourceTree = "<group>"; };
+		CA3B46EC1FD0243B002E577D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CA48DB451FB45AFF00CDF794 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		CA4F4A701FC2EFB300D79595 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA4F4A721FC2F1A000D79595 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		CA4F4A741FC2F5B700D79595 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CA5707151FDFF86C00AA1DBD /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CA7651021FC3C87D005CA3D7 /* DriverProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverProfileController.swift; sourceTree = "<group>"; };
+		CA7651041FC3C94C005CA3D7 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		CA76C93A1FBAC1FC0038DFE6 /* OrderBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBar.swift; sourceTree = "<group>"; };
+		CA76C93C1FBAD8430038DFE6 /* OrderBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBarCell.swift; sourceTree = "<group>"; };
+		CA76C93E1FBAE2F80038DFE6 /* OrderCargoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCargoCell.swift; sourceTree = "<group>"; };
+		CA76C9401FBAE4EF0038DFE6 /* MyOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrderCell.swift; sourceTree = "<group>"; };
+		CA7EC0E61FD7D2D40036F7E5 /* SpecialEquipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEquipment.swift; sourceTree = "<group>"; };
+		CA8282BC1FBA2B00005DBBE5 /* PromocodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromocodeViewController.swift; sourceTree = "<group>"; };
+		CA8282BE1FBA3562005DBBE5 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		CA8282C01FBA35D0005DBBE5 /* TutorialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialCell.swift; sourceTree = "<group>"; };
+		CA8282C21FBA59A0005DBBE5 /* SpecialEquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEquipmentViewController.swift; sourceTree = "<group>"; };
+		CA8282C41FBA5A34005DBBE5 /* SpecialEquipmentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialEquipmentCell.swift; sourceTree = "<group>"; };
+		CA8282C61FBA60EA005DBBE5 /* CargoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoViewController.swift; sourceTree = "<group>"; };
+		CA8D0CAC1FB9A07200269E2B /* LeftMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuController.swift; sourceTree = "<group>"; };
+		CAA60D251FB796A400ABB4D5 /* ConfirmAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmAuthViewController.swift; sourceTree = "<group>"; };
+		CAABFC251FE81B5C0002F9EE /* DriverCargoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoViewController.swift; sourceTree = "<group>"; };
+		CAABFC271FE81BA00002F9EE /* Cargo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cargo.swift; sourceTree = "<group>"; };
+		CAABFC291FE81D320002F9EE /* DriverCargoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoListCell.swift; sourceTree = "<group>"; };
+		CAABFC2B1FE81D9A0002F9EE /* DriverCargoAcceptedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoAcceptedListCell.swift; sourceTree = "<group>"; };
+		CAABFC2D1FE81E070002F9EE /* DriverCargoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverCargoCell.swift; sourceTree = "<group>"; };
+		CAB15F7C1FB3131E000F2170 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CAB254491FBC5EB8009AB955 /* OrderSuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSuggestionCell.swift; sourceTree = "<group>"; };
+		CAB648991FB976940017CCA2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CAD1AD701FE7E9F8002A2019 /* DriverIntercityListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverIntercityListCell.swift; sourceTree = "<group>"; };
+		CAD1AD721FE7EB2F002A2019 /* DriverIntercityAcceptedListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverIntercityAcceptedListCell.swift; sourceTree = "<group>"; };
+		CAD611261FBC06D200A02A99 /* IntercityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercityViewController.swift; sourceTree = "<group>"; };
+		CAD611281FBC076F00A02A99 /* OrderIntercityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderIntercityCell.swift; sourceTree = "<group>"; };
+		CAD6112C1FBC11D900A02A99 /* OrderDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsView.swift; sourceTree = "<group>"; };
+		CAD94ABE2005D9C400A2BEF7 /* ArzanTaxi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArzanTaxi-Bridging-Header.h"; sourceTree = "<group>"; };
+		CAD94ABF2005D9C500A2BEF7 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CAD94AC02005D9C500A2BEF7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CAE411241FD9670B00C88177 /* CarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarColor.swift; sourceTree = "<group>"; };
+		CAE570E81FBD996700216105 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		CAE570EA1FBD9C9F00216105 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		CAE570EC1FBD9DB800216105 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CAE570EE1FBDA5F400216105 /* NotificationDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailsViewController.swift; sourceTree = "<group>"; };
+		CAE570F01FBDA7B300216105 /* NotificationDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetailCell.swift; sourceTree = "<group>"; };
+		CAE570F21FBDB2A700216105 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		CAE570F41FBDB34400216105 /* HelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCell.swift; sourceTree = "<group>"; };
+		CAE570F61FBDB66300216105 /* LocationOfFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationOfFriendViewController.swift; sourceTree = "<group>"; };
+		CAEDF0781FB71B07004140B6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CAF3054220134503005894DA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		CAFA73641FBB3B46001B1EEB /* OrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCell.swift; sourceTree = "<group>"; };
+		CAFD766B1FEBC21500D0248C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		DC6F3E9726CD0CDE00CF335E /* RequestForPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestForPayViewController.swift; sourceTree = "<group>"; };
+		E491FFB62047061000AEC361 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		E491FFB820475F9B00AEC361 /* CargoCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CargoCar.swift; sourceTree = "<group>"; };
+		E4F15BD2204999A3009972E7 /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		FC926948CB068DB82CD81D62 /* Pods_BidKab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BidKab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA229D5B1FB2E48000C424A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				247454D2F1B3B01B06D7251E /* Pods_BidKab.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E360F923180BF1004B1EE6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				14E360FE23180E19004B1EE6 /* SliderMenuViewController.swift */,
+				1430C67C23191F67008128B5 /* SliderCollectionViewCell.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		60246B242142D2B2006DEF6A /* PaymentType */ = {
+			isa = PBXGroup;
+			children = (
+				60246B252142D2CC006DEF6A /* PaymentType.swift */,
+				60246B272142E1A4006DEF6A /* CardPayment.swift */,
+				60246B292142E1DE006DEF6A /* SMSPayment.swift */,
+				60246B2B2142E200006DEF6A /* BalancePayment.swift */,
+				60246B2D2142E225006DEF6A /* UserBalancePayment.swift */,
+				60246B2F2142E246006DEF6A /* Kassa24Payment.swift */,
+				60246B312142E25D006DEF6A /* QiwiPayment.swift */,
+			);
+			path = PaymentType;
+			sourceTree = "<group>";
+		};
+		60579B0C216280BA00776DB2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60579B0D216280D700776DB2 /* arzantaxi-help.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		655168AE20403A4F00BEF9CF /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				2CBD21FB59D6BD74FEF40E3BDA16CE18 /* GooglePlaces.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		89A04F8821202E700044BE41 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				89A04F8921202E700044BE41 /* DropDown.h */,
+				89A04F8A21202E700044BE41 /* helpers */,
+				89A04F8E21202E700044BE41 /* Info.plist */,
+				89A04F8F21202E700044BE41 /* resources */,
+				89A04F9121202E700044BE41 /* src */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		89A04F8A21202E700044BE41 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				89A04F8B21202E700044BE41 /* DPDConstants.swift */,
+				89A04F8C21202E700044BE41 /* DPDKeyboardListener.swift */,
+				89A04F8D21202E700044BE41 /* DPDUIView+Extension.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		89A04F8F21202E700044BE41 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				89A04F9021202E700044BE41 /* DropDownCell.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		89A04F9121202E700044BE41 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				89A04F9221202E700044BE41 /* DropDown+Appearance.swift */,
+				89A04F9321202E700044BE41 /* DropDown.swift */,
+				89A04F9421202E700044BE41 /* DropDownCell.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C1A244D2BCE53EE5E12F449C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A9C205FEB71AF478491B77B /* Pods-BidKab.debug.xcconfig */,
+				77F7A481651DD140002D5DF7 /* Pods-BidKab.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA0F21D01FC0094E005B4187 /* DriverControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F21D11FC00AE5005B4187 /* DriverHomeController.swift */,
+				DC6F3E9726CD0CDE00CF335E /* RequestForPayViewController.swift */,
+				CA0F21D81FC0297A005B4187 /* DriverHistoryController.swift */,
+				CA0F21DA1FC02C97005B4187 /* DriverIntercityController.swift */,
+				CA0F21DE1FC03EFD005B4187 /* DriverOrderViewController.swift */,
+				CA7651021FC3C87D005CA3D7 /* DriverProfileController.swift */,
+				CAABFC251FE81B5C0002F9EE /* DriverCargoViewController.swift */,
+				CA2D05CA2037189D00FD363B /* AddCargoViewController.swift */,
+				65EB808C2041805E001E9AEF /* AddSpecialCarViewController.swift */,
+				65EB80922041A09E001E9AEF /* DriverToiCarViewController.swift */,
+				65EB80942041A218001E9AEF /* AddToiViewController.swift */,
+				893F23F520FA0D0500DEB8C3 /* DriverMotoViewController.swift */,
+				65EB808E20418225001E9AEF /* DriverSpecialViewController.swift */,
+				89CEFD4120FA84C40017E237 /* DriverToyTaxiViewController.swift */,
+				603068FF212FF9FA00A9C3B2 /* RefreshController.swift */,
+				5CE2D2CD222563E700528285 /* PassengerInMapViewController.swift */,
+			);
+			path = DriverControllers;
+			sourceTree = "<group>";
+		};
+		CA0F21D31FC01A55005B4187 /* DriverView */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F21D41FC01A6C005B4187 /* HomeCell.swift */,
+				CA0F21DC1FC02D19005B4187 /* DriverIntercityCell.swift */,
+				CA7651041FC3C94C005CA3D7 /* ProfileCell.swift */,
+				CAD1AD701FE7E9F8002A2019 /* DriverIntercityListCell.swift */,
+				CAD1AD721FE7EB2F002A2019 /* DriverIntercityAcceptedListCell.swift */,
+				CAABFC291FE81D320002F9EE /* DriverCargoListCell.swift */,
+				CAABFC2B1FE81D9A0002F9EE /* DriverCargoAcceptedListCell.swift */,
+				CAABFC2D1FE81E070002F9EE /* DriverCargoCell.swift */,
+				65EB8090204191ED001E9AEF /* SpecialViewCell.swift */,
+				893F23E520F9C67800DEB8C3 /* DriverToyCell.swift */,
+				893F23E920F9E5E000DEB8C3 /* DriverOrdersCell.swift */,
+				893F23EB20F9E89100DEB8C3 /* DriverMyOrdersCell.swift */,
+				893F23ED20F9EB3000DEB8C3 /* DriverAutoInterCell.swift */,
+				893F23EF20F9FB9C00DEB8C3 /* DriverCargoOrdersCell.swift */,
+				893F23F120F9FCDE00DEB8C3 /* DriverCargoMyAutoCell.swift */,
+				893F23F320FA084000DEB8C3 /* DriverCargoCreateCell.swift */,
+				893F23F920FA0EEB00DEB8C3 /* DriverMotoMyAutoCell.swift */,
+				893F23FB20FA0F1400DEB8C3 /* DriverMotoOrdersCell.swift */,
+				893F23FD20FA0F3400DEB8C3 /* DriverMotoCreateCell.swift */,
+				89CEFD4320FA8CEE0017E237 /* DriverToyOrdersCell.swift */,
+				89CEFD4520FA8D070017E237 /* DriverToyCreateCell.swift */,
+				89CEFD4720FA8D1E0017E237 /* DriverToyMyAutoCell.swift */,
+				89CEFD4920FA97AE0017E237 /* DriverSpecialOrdersCell.swift */,
+				89CEFD4B20FA97CE0017E237 /* DriverSpecialCreateCell.swift */,
+				89CEFD4D20FA97F30017E237 /* DriverSpecialMyAutoCell.swift */,
+				89CEFD4F20FA9C140017E237 /* MyAutoCell.swift */,
+				89CEFD5120FAA1CD0017E237 /* DriverOrdersTableCell.swift */,
+				89B155A321122A6400441F8B /* MyOrdersWithStatusCell.swift */,
+				89B155A52112338100441F8B /* DriverFreeAutoWithImageCell.swift */,
+				896732C621130FA700D7F471 /* DriverVipMyOrdersCell.swift */,
+				60CB82392121A2DF00FF8918 /* DriverCityTitleView.swift */,
+				603068FD212FD94700A9C3B2 /* RefreshControlCell.swift */,
+				141DCFB72303D2D1000940CB /* TextTitleView.swift */,
+				144BC8E72306C5C700657C59 /* CostView.swift */,
+			);
+			path = DriverView;
+			sourceTree = "<group>";
+		};
+		CA229D551FB2E48000C424A8 = {
+			isa = PBXGroup;
+			children = (
+				5C04723521E49E0F00699D1D /* BidKab.entitlements */,
+				CA229D601FB2E48000C424A8 /* ArzanTaxi */,
+				CA229D5F1FB2E48000C424A8 /* Products */,
+				655168AE20403A4F00BEF9CF /* Recovered References */,
+				C1A244D2BCE53EE5E12F449C /* Pods */,
+				D7699FB62842385EF85A3E62 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA229D5F1FB2E48000C424A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA229D5E1FB2E48000C424A8 /* BidKab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA229D601FB2E48000C424A8 /* ArzanTaxi */ = {
+			isa = PBXGroup;
+			children = (
+				14E360F923180BF1004B1EE6 /* New Group */,
+				60579B0C216280BA00776DB2 /* Resources */,
+				CAD94ABD2005D9A800A2BEF7 /* SWRevealViewController */,
+				CA229D611FB2E48000C424A8 /* AppDelegate.swift */,
+				CA8D0CAC1FB9A07200269E2B /* LeftMenuController.swift */,
+				CA28EFEF1FB2F61800C2F818 /* Extensions */,
+				CA0F21D01FC0094E005B4187 /* DriverControllers */,
+				CA229D761FB2E62C00C424A8 /* UserControllers */,
+				CA0F21D31FC01A55005B4187 /* DriverView */,
+				CA48DB441FB45AEA00CDF794 /* UserView */,
+				CA4F4A6F1FC2EF9800D79595 /* Models */,
+				CA229D6B1FB2E48000C424A8 /* Assets.xcassets */,
+				CA229D6D1FB2E48000C424A8 /* LaunchScreen.storyboard */,
+				5C170D9D2269B0C9006426C5 /* launch.jpg */,
+				CA229D701FB2E48000C424A8 /* Info.plist */,
+				5C39658421CBC15400AA75F9 /* GoogleService-Info.plist */,
+			);
+			path = ArzanTaxi;
+			sourceTree = "<group>";
+		};
+		CA229D761FB2E62C00C424A8 /* UserControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D70FA1FB9D90B00A6A7F2 /* HomeViewController.swift */,
+				1412503C22EEBAB10009FC23 /* PlaceListTableViewCell.swift */,
+				CAEDF0781FB71B07004140B6 /* RegisterViewController.swift */,
+				CA8282C21FBA59A0005DBBE5 /* SpecialEquipmentViewController.swift */,
+				CAA60D251FB796A400ABB4D5 /* ConfirmAuthViewController.swift */,
+				CAB648991FB976940017CCA2 /* ProfileViewController.swift */,
+				CA2D70FE1FB9FA9300A6A7F2 /* FriendLocationViewController.swift */,
+				CA2D71021FBA081300A6A7F2 /* AddFriendViewController.swift */,
+				CA8282BE1FBA3562005DBBE5 /* TutorialViewController.swift */,
+				CA2D71041FBA0FEB00A6A7F2 /* VipTaxiViewController.swift */,
+				CA8282BC1FBA2B00005DBBE5 /* PromocodeViewController.swift */,
+				CAD611261FBC06D200A02A99 /* IntercityViewController.swift */,
+				CA8282C61FBA60EA005DBBE5 /* CargoViewController.swift */,
+				89601A4C20F5D05200DBAEFC /* MotoViewController.swift */,
+				CAE570E81FBD996700216105 /* HistoryViewController.swift */,
+				CAE570EA1FBD9C9F00216105 /* NotificationsViewController.swift */,
+				CAE570EE1FBDA5F400216105 /* NotificationDetailsViewController.swift */,
+				CAE570F21FBDB2A700216105 /* HelpViewController.swift */,
+				60579B0F2162831D00776DB2 /* HelpController.swift */,
+				CAE570F61FBDB66300216105 /* LocationOfFriendViewController.swift */,
+				CA3B46EC1FD0243B002E577D /* LoginViewController.swift */,
+				CA18F4591FF1144600243747 /* OrderViewController.swift */,
+				E4F15BD2204999A3009972E7 /* FeedbackViewController.swift */,
+				8911F17E20F71422007542AF /* SpecialViewController.swift */,
+				896930D420F776AE00EA61AC /* ToyTaxiViewController.swift */,
+				89F054AE210B90E400BE169D /* PayBoxViewController.swift */,
+				89698DF32119C669002831BF /* TypsPaymentViewController.swift */,
+				605E3B042123EFD500047AA9 /* ContactUsController.swift */,
+				6002C0BA2125460C0085364C /* InstructionsController.swift */,
+				5CEE465E21BBB092002C8E14 /* OrderTradeViewController.swift */,
+				5C04723621E4AEC100699D1D /* ConfidentialViewController.swift */,
+				5C0121B32232D1230016B4D0 /* PlaceListViewController.swift */,
+				5C0121B52232D4BC0016B4D0 /* MapViewController.swift */,
+			);
+			path = UserControllers;
+			sourceTree = "<group>";
+		};
+		CA28EFEF1FB2F61800C2F818 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89A04F8821202E700044BE41 /* DropDown */,
+				6002C0B6212540500085364C /* UIAlertController.swift */,
+				CA28EFF01FB2F62D00C2F818 /* Extentions.swift */,
+				CAB15F7C1FB3131E000F2170 /* Helper.swift */,
+				CA4F4A741FC2F5B700D79595 /* Constant.swift */,
+				608E5E5D2122963600C28EE9 /* Date.swift */,
+				6002C0B8212545EB0085364C /* ScrollableController.swift */,
+				6090B1E62136B2CC00024D98 /* Double.swift */,
+				60783758216630E700046EA4 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA48DB441FB45AEA00CDF794 /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				CA48DB451FB45AFF00CDF794 /* MenuCell.swift */,
+				CA2D71001FB9FB2100A6A7F2 /* FriendCell.swift */,
+				CA2D71061FBA10C300A6A7F2 /* VipTaxiCell.swift */,
+				CA8282C01FBA35D0005DBBE5 /* TutorialCell.swift */,
+				CA8282C41FBA5A34005DBBE5 /* SpecialEquipmentCell.swift */,
+				89601A4A20F5C94000DBAEFC /* ImageCollectionCell.swift */,
+				CA76C93A1FBAC1FC0038DFE6 /* OrderBar.swift */,
+				CA76C93C1FBAD8430038DFE6 /* OrderBarCell.swift */,
+				CA76C93E1FBAE2F80038DFE6 /* OrderCargoCell.swift */,
+				89601A5220F6006400DBAEFC /* OrderMotoCell.swift */,
+				CAFA73641FBB3B46001B1EEB /* OrderCell.swift */,
+				89601A4820F5BF7900DBAEFC /* CargoOrderCell.swift */,
+				CAD611281FBC076F00A02A99 /* OrderIntercityCell.swift */,
+				893F23E320F9B99200DEB8C3 /* OrderToyCell.swift */,
+				893F23E120F9B80400DEB8C3 /* OrderSpecialCell.swift */,
+				CAD6112C1FBC11D900A02A99 /* OrderDetailsView.swift */,
+				CA372F851FBC3DFD0090162D /* DetailsViewCell.swift */,
+				CAB254491FBC5EB8009AB955 /* OrderSuggestionCell.swift */,
+				CAE570EC1FBD9DB800216105 /* NotificationCell.swift */,
+				CAE570F01FBDA7B300216105 /* NotificationDetailCell.swift */,
+				CAE570F41FBDB34400216105 /* HelpCell.swift */,
+				89B81F5A20F4C45000DAED26 /* FreeAutoCell.swift */,
+				CA76C9401FBAE4EF0038DFE6 /* MyOrderCell.swift */,
+				89B81F5E20F4E24800DAED26 /* IntercityFreeAutoCell.swift */,
+				89B81F5C20F4D07900DAED26 /* IntercityMyOrderCell.swift */,
+				89601A5020F5D95400DBAEFC /* MotoFreeAutoCell.swift */,
+				89601A4E20F5D7FD00DBAEFC /* MotoMyOrderCell.swift */,
+				89601A5420F610C800DBAEFC /* SelectedImage.swift */,
+				8911F18020F719B9007542AF /* ToyFreeAutoCell.swift */,
+				8911F18220F719D9007542AF /* ToyMyOrderCell.swift */,
+				8911F18420F71A21007542AF /* SpecialFreeAutoCell.swift */,
+				8911F18620F71A3E007542AF /* SpecialMyOrderCell.swift */,
+				893F23E720F9C7F100DEB8C3 /* MyOrderToyCell.swift */,
+				89B155A1211212CE00441F8B /* FreeAutoWithImageCell.swift */,
+				60167AEB21631E3300486DD7 /* NewHelpCell.swift */,
+				5CEE466021BBB371002C8E14 /* OrderTradeTableViewCell.swift */,
+				14538D03230D60CA00EE581C /* OrderAlertView.swift */,
+				14538D07230D6AEB00EE581C /* BannersLayoutConfiguration.swift */,
+				14B9153E23178F0000436159 /* UserHistoryAddress.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		CA4F4A6F1FC2EF9800D79595 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60246B242142D2B2006DEF6A /* PaymentType */,
+				CA4F4A701FC2EFB300D79595 /* User.swift */,
+				CA4F4A721FC2F1A000D79595 /* City.swift */,
+				CA24AE4C1FC8045000C0B33D /* CarMark.swift */,
+				CA03383C1FC891D200868212 /* CarModel.swift */,
+				CA7EC0E61FD7D2D40036F7E5 /* SpecialEquipment.swift */,
+				CAE411241FD9670B00C88177 /* CarColor.swift */,
+				CA5707151FDFF86C00AA1DBD /* Car.swift */,
+				CA31C4A41FE7D33100AE9643 /* Intercity.swift */,
+				CAABFC271FE81BA00002F9EE /* Cargo.swift */,
+				CA0F47661FE91C5C00710131 /* Socket.swift */,
+				CAFD766B1FEBC21500D0248C /* Order.swift */,
+				CA1825EF1FF630EB000FA976 /* Notification.swift */,
+				CA1825F31FF63B2E000FA976 /* VipTaxi.swift */,
+				CAF3054220134503005894DA /* History.swift */,
+				E491FFB62047061000AEC361 /* Offer.swift */,
+				E491FFB820475F9B00AEC361 /* CargoCar.swift */,
+				608E5E5B21228F3500C28EE9 /* DriverStatus.swift */,
+				608E5E5F2122C82500C28EE9 /* DriverSubscriptionResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CAD94ABD2005D9A800A2BEF7 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CAD94ABF2005D9C500A2BEF7 /* SWRevealViewController.h */,
+				CAD94AC02005D9C500A2BEF7 /* SWRevealViewController.m */,
+				CAD94ABE2005D9C400A2BEF7 /* ArzanTaxi-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		D7699FB62842385EF85A3E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC926948CB068DB82CD81D62 /* Pods_BidKab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA229D5D1FB2E48000C424A8 /* BidKab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA229D731FB2E48000C424A8 /* Build configuration list for PBXNativeTarget "BidKab" */;
+			buildPhases = (
+				D3618B9EB82C7E4E1469CC43 /* [CP] Check Pods Manifest.lock */,
+				CA229D5A1FB2E48000C424A8 /* Sources */,
+				CA229D5B1FB2E48000C424A8 /* Frameworks */,
+				CA229D5C1FB2E48000C424A8 /* Resources */,
+				9CD81016CC3FD8B50BB5C1F1 /* [CP] Embed Pods Frameworks */,
+				62C370020EC837E236E8A4AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BidKab;
+			productName = ArzanTaxi;
+			productReference = CA229D5E1FB2E48000C424A8 /* BidKab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA229D561FB2E48000C424A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nursultan Zhiyembay";
+				TargetAttributes = {
+					CA229D5D1FB2E48000C424A8 = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CA229D591FB2E48000C424A8 /* Build configuration list for PBXProject "BidKab" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA229D551FB2E48000C424A8;
+			productRefGroup = CA229D5F1FB2E48000C424A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA229D5D1FB2E48000C424A8 /* BidKab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA229D5C1FB2E48000C424A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60579B0E216280D800776DB2 /* arzantaxi-help.html in Resources */,
+				CA229D6F1FB2E48000C424A8 /* LaunchScreen.storyboard in Resources */,
+				5C39658521CBC15400AA75F9 /* GoogleService-Info.plist in Resources */,
+				5C170D9E2269B0C9006426C5 /* launch.jpg in Resources */,
+				CA229D6C1FB2E48000C424A8 /* Assets.xcassets in Resources */,
+				89A04F9921202E720044BE41 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62C370020EC837E236E8A4AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidKab/Pods-BidKab-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidKab/Pods-BidKab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD81016CC3FD8B50BB5C1F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BidKab/Pods-BidKab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImagePicker/BSImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImageView/BSImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/InputMask/InputMask.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialTextField/MaterialTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/StarscreamSocketIO/StarscreamSocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/VisualEffectView/VisualEffectView.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSGridCollectionViewLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputMask.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StarscreamSocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VisualEffectView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BidKab/Pods-BidKab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3618B9EB82C7E4E1469CC43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BidKab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA229D5A1FB2E48000C424A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CEFD4A20FA97AE0017E237 /* DriverSpecialOrdersCell.swift in Sources */,
+				89F054AF210B90E400BE169D /* PayBoxViewController.swift in Sources */,
+				CAE411251FD9670B00C88177 /* CarColor.swift in Sources */,
+				CA0F21D21FC00AE5005B4187 /* DriverHomeController.swift in Sources */,
+				CA1825F01FF630EB000FA976 /* Notification.swift in Sources */,
+				CAEDF0791FB71B07004140B6 /* RegisterViewController.swift in Sources */,
+				CA03383D1FC891D200868212 /* CarModel.swift in Sources */,
+				CA24AE4D1FC8045000C0B33D /* CarMark.swift in Sources */,
+				893F23FE20FA0F3400DEB8C3 /* DriverMotoCreateCell.swift in Sources */,
+				CA31C4A51FE7D33100AE9643 /* Intercity.swift in Sources */,
+				E491FFB72047061000AEC361 /* Offer.swift in Sources */,
+				89CEFD5020FA9C140017E237 /* MyAutoCell.swift in Sources */,
+				CA4F4A751FC2F5B700D79595 /* Constant.swift in Sources */,
+				65EB8091204191ED001E9AEF /* SpecialViewCell.swift in Sources */,
+				CAABFC2A1FE81D320002F9EE /* DriverCargoListCell.swift in Sources */,
+				CAE570ED1FBD9DB800216105 /* NotificationCell.swift in Sources */,
+				14B9153F23178F0000436159 /* UserHistoryAddress.swift in Sources */,
+				608E5E5E2122963600C28EE9 /* Date.swift in Sources */,
+				E4F15BD3204999A3009972E7 /* FeedbackViewController.swift in Sources */,
+				893F23FA20FA0EEB00DEB8C3 /* DriverMotoMyAutoCell.swift in Sources */,
+				60246B302142E246006DEF6A /* Kassa24Payment.swift in Sources */,
+				CA5707161FDFF86C00AA1DBD /* Car.swift in Sources */,
+				5CE2D2CE222563E700528285 /* PassengerInMapViewController.swift in Sources */,
+				893F23E220F9B80400DEB8C3 /* OrderSpecialCell.swift in Sources */,
+				CAE570E91FBD996700216105 /* HistoryViewController.swift in Sources */,
+				DC6F3E9826CD0CDE00CF335E /* RequestForPayViewController.swift in Sources */,
+				CA4F4A731FC2F1A000D79595 /* City.swift in Sources */,
+				89A04F9721202E720044BE41 /* DPDUIView+Extension.swift in Sources */,
+				6002C0BB2125460C0085364C /* InstructionsController.swift in Sources */,
+				5C0121B62232D4BC0016B4D0 /* MapViewController.swift in Sources */,
+				CAD1AD711FE7E9F8002A2019 /* DriverIntercityListCell.swift in Sources */,
+				89698DF42119C669002831BF /* TypsPaymentViewController.swift in Sources */,
+				8911F18320F719D9007542AF /* ToyMyOrderCell.swift in Sources */,
+				CA7651051FC3C94C005CA3D7 /* ProfileCell.swift in Sources */,
+				CA0F21D91FC0297A005B4187 /* DriverHistoryController.swift in Sources */,
+				CAD1AD731FE7EB2F002A2019 /* DriverIntercityAcceptedListCell.swift in Sources */,
+				14538D04230D60CA00EE581C /* OrderAlertView.swift in Sources */,
+				CA0F21DF1FC03EFD005B4187 /* DriverOrderViewController.swift in Sources */,
+				CA8282C11FBA35D0005DBBE5 /* TutorialCell.swift in Sources */,
+				5CEE466121BBB371002C8E14 /* OrderTradeTableViewCell.swift in Sources */,
+				60579B102162831D00776DB2 /* HelpController.swift in Sources */,
+				893F23EA20F9E5E000DEB8C3 /* DriverOrdersCell.swift in Sources */,
+				89B155A62112338100441F8B /* DriverFreeAutoWithImageCell.swift in Sources */,
+				65EB808F20418225001E9AEF /* DriverSpecialViewController.swift in Sources */,
+				CA0F47671FE91C5C00710131 /* Socket.swift in Sources */,
+				CA7651031FC3C87D005CA3D7 /* DriverProfileController.swift in Sources */,
+				1430C67D23191F67008128B5 /* SliderCollectionViewCell.swift in Sources */,
+				CA1825F41FF63B2E000FA976 /* VipTaxi.swift in Sources */,
+				CAE570F51FBDB34400216105 /* HelpCell.swift in Sources */,
+				CA2D70FF1FB9FA9300A6A7F2 /* FriendLocationViewController.swift in Sources */,
+				E491FFB920475F9B00AEC361 /* CargoCar.swift in Sources */,
+				CAE570F71FBDB66300216105 /* LocationOfFriendViewController.swift in Sources */,
+				608E5E602122C82500C28EE9 /* DriverSubscriptionResponse.swift in Sources */,
+				89CEFD4E20FA97F30017E237 /* DriverSpecialMyAutoCell.swift in Sources */,
+				89B81F5F20F4E24800DAED26 /* IntercityFreeAutoCell.swift in Sources */,
+				CA2D71071FBA10C300A6A7F2 /* VipTaxiCell.swift in Sources */,
+				89A04F9521202E720044BE41 /* DPDConstants.swift in Sources */,
+				CAD94AC12005D9C500A2BEF7 /* SWRevealViewController.m in Sources */,
+				60783759216630E700046EA4 /* String.swift in Sources */,
+				603068FE212FD94700A9C3B2 /* RefreshControlCell.swift in Sources */,
+				CA76C93B1FBAC1FC0038DFE6 /* OrderBar.swift in Sources */,
+				CA8282C71FBA60EA005DBBE5 /* CargoViewController.swift in Sources */,
+				893F23EC20F9E89100DEB8C3 /* DriverMyOrdersCell.swift in Sources */,
+				CAB2544A1FBC5EB8009AB955 /* OrderSuggestionCell.swift in Sources */,
+				89CEFD4420FA8CEE0017E237 /* DriverToyOrdersCell.swift in Sources */,
+				5C0121B42232D1230016B4D0 /* PlaceListViewController.swift in Sources */,
+				14E360FF23180E19004B1EE6 /* SliderMenuViewController.swift in Sources */,
+				893F23E620F9C67800DEB8C3 /* DriverToyCell.swift in Sources */,
+				60246B282142E1A4006DEF6A /* CardPayment.swift in Sources */,
+				60246B262142D2CC006DEF6A /* PaymentType.swift in Sources */,
+				89601A5520F610C800DBAEFC /* SelectedImage.swift in Sources */,
+				60167AEC21631E3300486DD7 /* NewHelpCell.swift in Sources */,
+				CAFA73651FBB3B46001B1EEB /* OrderCell.swift in Sources */,
+				60246B2A2142E1DE006DEF6A /* SMSPayment.swift in Sources */,
+				CAA60D261FB796A400ABB4D5 /* ConfirmAuthViewController.swift in Sources */,
+				CA28EFF11FB2F62D00C2F818 /* Extentions.swift in Sources */,
+				89A04F9B21202E720044BE41 /* DropDown.swift in Sources */,
+				65EB80932041A09E001E9AEF /* DriverToiCarViewController.swift in Sources */,
+				6002C0B9212545EB0085364C /* ScrollableController.swift in Sources */,
+				CA8D0CAD1FB9A07200269E2B /* LeftMenuController.swift in Sources */,
+				CA3B46ED1FD0243B002E577D /* LoginViewController.swift in Sources */,
+				8911F18120F719B9007542AF /* ToyFreeAutoCell.swift in Sources */,
+				89A04F9A21202E720044BE41 /* DropDown+Appearance.swift in Sources */,
+				CAABFC261FE81B5C0002F9EE /* DriverCargoViewController.swift in Sources */,
+				893F23FC20FA0F1400DEB8C3 /* DriverMotoOrdersCell.swift in Sources */,
+				89B155A421122A6400441F8B /* MyOrdersWithStatusCell.swift in Sources */,
+				89CEFD4820FA8D1E0017E237 /* DriverToyMyAutoCell.swift in Sources */,
+				8911F18520F71A21007542AF /* SpecialFreeAutoCell.swift in Sources */,
+				893F23F620FA0D0500DEB8C3 /* DriverMotoViewController.swift in Sources */,
+				896732C721130FA700D7F471 /* DriverVipMyOrdersCell.swift in Sources */,
+				608E5E5C21228F3500C28EE9 /* DriverStatus.swift in Sources */,
+				8911F17F20F71422007542AF /* SpecialViewController.swift in Sources */,
+				5C04723721E4AEC100699D1D /* ConfidentialViewController.swift in Sources */,
+				8911F18720F71A3E007542AF /* SpecialMyOrderCell.swift in Sources */,
+				60306900212FF9FA00A9C3B2 /* RefreshController.swift in Sources */,
+				893F23F420FA084000DEB8C3 /* DriverCargoCreateCell.swift in Sources */,
+				CA2D71051FBA0FEB00A6A7F2 /* VipTaxiViewController.swift in Sources */,
+				CA48DB461FB45AFF00CDF794 /* MenuCell.swift in Sources */,
+				893F23E820F9C7F100DEB8C3 /* MyOrderToyCell.swift in Sources */,
+				6090B1E72136B2CC00024D98 /* Double.swift in Sources */,
+				CA2D71011FB9FB2100A6A7F2 /* FriendCell.swift in Sources */,
+				60246B322142E25D006DEF6A /* QiwiPayment.swift in Sources */,
+				CAE570EF1FBDA5F400216105 /* NotificationDetailsViewController.swift in Sources */,
+				CA8282C31FBA59A0005DBBE5 /* SpecialEquipmentViewController.swift in Sources */,
+				89A04F9621202E720044BE41 /* DPDKeyboardListener.swift in Sources */,
+				CA4F4A711FC2EFB300D79595 /* User.swift in Sources */,
+				CA372F861FBC3DFD0090162D /* DetailsViewCell.swift in Sources */,
+				6002C0B7212540500085364C /* UIAlertController.swift in Sources */,
+				89CEFD5220FAA1CD0017E237 /* DriverOrdersTableCell.swift in Sources */,
+				CA76C9411FBAE4EF0038DFE6 /* MyOrderCell.swift in Sources */,
+				CAF3054320134503005894DA /* History.swift in Sources */,
+				CAD611291FBC076F00A02A99 /* OrderIntercityCell.swift in Sources */,
+				605E3B052123EFD500047AA9 /* ContactUsController.swift in Sources */,
+				CA76C93D1FBAD8430038DFE6 /* OrderBarCell.swift in Sources */,
+				CAB15F7D1FB3131E000F2170 /* Helper.swift in Sources */,
+				CAABFC2C1FE81D9A0002F9EE /* DriverCargoAcceptedListCell.swift in Sources */,
+				65EB808D2041805E001E9AEF /* AddSpecialCarViewController.swift in Sources */,
+				65EB80952041A218001E9AEF /* AddToiViewController.swift in Sources */,
+				5CEE465F21BBB092002C8E14 /* OrderTradeViewController.swift in Sources */,
+				893F23F220F9FCDE00DEB8C3 /* DriverCargoMyAutoCell.swift in Sources */,
+				CA2D70FB1FB9D90B00A6A7F2 /* HomeViewController.swift in Sources */,
+				CAB6489A1FB976940017CCA2 /* ProfileViewController.swift in Sources */,
+				89601A4D20F5D05200DBAEFC /* MotoViewController.swift in Sources */,
+				89B81F5D20F4D07900DAED26 /* IntercityMyOrderCell.swift in Sources */,
+				1412503D22EEBAB10009FC23 /* PlaceListTableViewCell.swift in Sources */,
+				89CEFD4620FA8D070017E237 /* DriverToyCreateCell.swift in Sources */,
+				CA8282BF1FBA3562005DBBE5 /* TutorialViewController.swift in Sources */,
+				CA0F21DD1FC02D19005B4187 /* DriverIntercityCell.swift in Sources */,
+				14538D08230D6AEB00EE581C /* BannersLayoutConfiguration.swift in Sources */,
+				89601A4B20F5C94000DBAEFC /* ImageCollectionCell.swift in Sources */,
+				89601A5320F6006500DBAEFC /* OrderMotoCell.swift in Sources */,
+				60246B2C2142E200006DEF6A /* BalancePayment.swift in Sources */,
+				89CEFD4220FA84C40017E237 /* DriverToyTaxiViewController.swift in Sources */,
+				CA229D621FB2E48000C424A8 /* AppDelegate.swift in Sources */,
+				CAE570F11FBDA7B300216105 /* NotificationDetailCell.swift in Sources */,
+				CA2D71031FBA081300A6A7F2 /* AddFriendViewController.swift in Sources */,
+				CA0F21DB1FC02C97005B4187 /* DriverIntercityController.swift in Sources */,
+				CA18F45A1FF1144600243747 /* OrderViewController.swift in Sources */,
+				89CEFD4C20FA97CE0017E237 /* DriverSpecialCreateCell.swift in Sources */,
+				CAABFC281FE81BA00002F9EE /* Cargo.swift in Sources */,
+				893F23E420F9B99200DEB8C3 /* OrderToyCell.swift in Sources */,
+				CAD611271FBC06D200A02A99 /* IntercityViewController.swift in Sources */,
+				60246B2E2142E225006DEF6A /* UserBalancePayment.swift in Sources */,
+				89A04F9C21202E720044BE41 /* DropDownCell.swift in Sources */,
+				CAABFC2E1FE81E070002F9EE /* DriverCargoCell.swift in Sources */,
+				CA8282C51FBA5A34005DBBE5 /* SpecialEquipmentCell.swift in Sources */,
+				60CB823A2121A2DF00FF8918 /* DriverCityTitleView.swift in Sources */,
+				CA0F21D51FC01A6C005B4187 /* HomeCell.swift in Sources */,
+				141DCFB82303D2D1000940CB /* TextTitleView.swift in Sources */,
+				CA7EC0E71FD7D2D40036F7E5 /* SpecialEquipment.swift in Sources */,
+				89B81F5B20F4C45000DAED26 /* FreeAutoCell.swift in Sources */,
+				89601A5120F5D95400DBAEFC /* MotoFreeAutoCell.swift in Sources */,
+				893F23EE20F9EB3000DEB8C3 /* DriverAutoInterCell.swift in Sources */,
+				CAE570F31FBDB2A700216105 /* HelpViewController.swift in Sources */,
+				893F23F020F9FB9C00DEB8C3 /* DriverCargoOrdersCell.swift in Sources */,
+				CA76C93F1FBAE2F80038DFE6 /* OrderCargoCell.swift in Sources */,
+				CAD6112D1FBC11D900A02A99 /* OrderDetailsView.swift in Sources */,
+				89B155A2211212CE00441F8B /* FreeAutoWithImageCell.swift in Sources */,
+				CAFD766C1FEBC21500D0248C /* Order.swift in Sources */,
+				89601A4F20F5D7FD00DBAEFC /* MotoMyOrderCell.swift in Sources */,
+				896930D520F776AE00EA61AC /* ToyTaxiViewController.swift in Sources */,
+				CA8282BD1FBA2B00005DBBE5 /* PromocodeViewController.swift in Sources */,
+				CA2D05CB2037189D00FD363B /* AddCargoViewController.swift in Sources */,
+				144BC8E82306C5C700657C59 /* CostView.swift in Sources */,
+				89601A4920F5BF7900DBAEFC /* CargoOrderCell.swift in Sources */,
+				CAE570EB1FBD9C9F00216105 /* NotificationsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA229D6D1FB2E48000C424A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA229D6E1FB2E48000C424A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA229D711FB2E48000C424A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8XHSD5YR87;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA229D721FB2E48000C424A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8XHSD5YR87;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA229D741FB2E48000C424A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9C205FEB71AF478491B77B /* Pods-BidKab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BidKab.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XHSD5YR87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArzanTaxi",
+				);
+				INFOPLIST_FILE = ArzanTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.3.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thousand.BidKab1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/ArzanTaxi/SWRevealViewController/ArzanTaxi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA229D751FB2E48000C424A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F7A481651DD140002D5DF7 /* Pods-BidKab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BidKab.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XHSD5YR87;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/ArzanTaxi",
+				);
+				INFOPLIST_FILE = ArzanTaxi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 3.3.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thousand.BidKab1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/ArzanTaxi/SWRevealViewController/ArzanTaxi-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA229D591FB2E48000C424A8 /* Build configuration list for PBXProject "BidKab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA229D711FB2E48000C424A8 /* Debug */,
+				CA229D721FB2E48000C424A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA229D731FB2E48000C424A8 /* Build configuration list for PBXNativeTarget "BidKab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA229D741FB2E48000C424A8 /* Debug */,
+				CA229D751FB2E48000C424A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA229D561FB2E48000C424A8 /* Project object */;
+}
